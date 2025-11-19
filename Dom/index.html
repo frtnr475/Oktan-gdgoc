@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css" />
+  </head>
+  <body class="flex justify-center items-center h-screen">
+    <section class="flex flex-col mt-20 bg-black border-2 rounded-sm justify-center items-center w-100 h-100 font-bold gap-4">
+      <label id="label" class="text-white text-4xl">0</label>
+      <div class="flex gap-4">
+        <button
+          id="btnKurang"
+          onclick="kurangBtn()"
+          class="py-2 px-2 rounded-sm bg-yellow-300 hover:bg-amber-400 transition duration-300 cursor-pointer"
+        >
+          Kurang
+        </button>
+        <button
+          id="btnReset"
+          onclick="resetBtn()"
+          class="py-2 px-2 rounded-sm bg-red-500 hover:bg-red-700 transition duration-300 cursor-pointer"
+        >
+          Reset
+      </button>
+        <button
+          id="btnTambah"
+          onclick="tambahBtn()"
+          class="py-2 px-2 rounded-sm bg-green-500 hover:bg-green-700 transition duration-300 cursor-pointer"
+        >
+          Tambah
+        </button>
+        </div>
+        <section clas="flex justify-center items-center gap-4">
+        <div class="flex flex-col justify-center items-center ">
+          <div class="flex gap-4">
+          <button id="angka1"onclick="numberOne()" class="border-2 bg-white text-black text-2xl py-2 px-5 ">1</button>
+          <button id="angka2"onclick="numberTwo()" class="border-2 bg-white text-black text-2xl py-2 px-5 ">2</button>
+          <button id="angka3"onclick="numberThree()" class="border-2 bg-white text-black text-2xl py-2 px-5">3</button>
+          </div>
+         
+        </div>
+        </section>
+        
+      
+    </section>
+    <!-- script js -->
+     <script src="script.js"></script>
+  </body>
+</html>
